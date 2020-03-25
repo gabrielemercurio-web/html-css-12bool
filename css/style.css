@@ -1,0 +1,168 @@
+body {
+    background-image: url(img/pattern.jpg);
+    background-size: cover;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: #ccc;
+    border: 10px inset #eee;
+    margin-bottom: 50px;
+    padding: 5px;
+    position: relative;
+}
+
+.hamburger-menu {
+    float: left;
+    width: 70px;
+    height: 70px;
+    background-color: #ccc;
+    border: 10px outset #eee;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+
+.hamburger-menu:hover {
+    border-color: #aaa;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.linea {
+    width: 30px;
+    height: 5px;
+    background-color: #222;
+    margin-bottom: 5px;
+    border-radius: 1px;
+}
+
+@font-face {
+    font-family: digital-clock;
+    src: url(img/digital-clock.ttf);
+}
+
+#header > div:nth-child(2) {
+    margin-left: calc(69% / 2);
+}
+
+.punteggio {
+    float: left;
+    width: 150px;
+    height: 70px;
+    background-color: #111;
+    border: 2px solid #777;
+    padding: 1px 0px;
+    position: relative;
+}
+
+.punteggio p {
+    font-size: 80px;
+    font-family:digital-clock;
+    color: red;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: absolute;
+    margin-left: 18px;
+}
+
+.punteggio p:nth-child(2) {
+    color: rgba(255, 0, 0, 0.3);
+}
+
+.smile {
+    float: left;
+    width: 70px;
+    height: 70px;
+    background-color: #f00;
+    border: 10px outset #eee;
+    padding: 5px;
+}
+
+.smile:hover {
+    border-color: #aaa;
+    background-color: green;
+    cursor: pointer;
+}
+
+.golf-flag {
+    float: right;
+    width: 70px;
+    height: 70px;
+    background-color: #ccc;
+    border: 10px outset #eee;
+    padding: 5px;
+}
+
+.golf-flag:hover {
+    border-color: #aaa;
+    background-color: orange;
+    cursor: pointer;
+}
+
+
+
+
+
+/* ----------------------------------------- INIZIO CAMPO MINATO */
+
+.row > div {
+    height: calc(1170px / 12);
+    background-color: #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+.small-container {
+    border: 10px outset orange;
+}
+
+.small-container::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.coperto {
+    border: 10px outset #eee;
+}
+
+.coperto:hover {
+    border-color: #aaa;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.scoperto {
+    border: 1px solid #777;
+}
+
+img {
+    height: 100%;
+}
+
+#scoppio {
+    background-color: red;
+}
+
+.uno, .due, .tre, .quattro {
+    font-family: monospace;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.uno {
+    color: blue;
+}
+
+.due {
+    color: green;
+}
+
+.tre {
+    color: red;
+}
+
+.quattro {
+    color: darkblue;
+}
